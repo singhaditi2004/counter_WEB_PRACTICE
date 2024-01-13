@@ -1,0 +1,65 @@
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    box-sizing: border-box;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  
+}
+#container{
+    box-sizing: border-box;
+}
+#counter{
+    box-sizing: border-box;
+    font-size: 5em;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+
+}
+.parent{
+    color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 25vh;
+    margin-top: 12vh;
+    text-align:center; 
+    box-shadow: rgba(11, 12, 12, 0.3) 0px 1px 2px 0px, rgba(27, 27, 27, 0.15) 0px 2px 6px 2px;
+}
+#counter{
+    position: relative;
+    top: 5vh;
+    left: 0vh;
+}
+.flex > input {
+    background-color: #f1f1f1;
+    margin: auto;
+    padding: 20px;
+    text-align: 4em;
+    height: 8vh;
+    width: 10vw;
+    font-size:1.5em;
+    line-height: 12%;
+    text-align: center;
+    border-radius: 12%;
+    background: #606c88;
+    cursor: pointer;
+    background: #3E5151;  /* fallback for old browsers */
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: transparent;
+    color: aliceblue;
+    }
